@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Times de Boston</string>
+
+    <string name="title_activity_details">Detalhes</string>
+    <string name="sport_hockey">Hockey</string>
+    <string name="sport_basketballl">Basquete</string>
+    <string name="sport_football">Futebol Americano</string>
+    <string name="sport_soccer">Futebol</string>
+    <string name="sport_baseball">Baseball</string>
+
+    <string name="lbl_league">Liga</string>
+    <string name="lbl_captain">Capitão</string>
+
+
+</resources>

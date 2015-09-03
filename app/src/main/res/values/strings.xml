@@ -3,5 +3,14 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_details">Details</string>
+    <string name="sport_hockey">Hockey</string>
+    <string name="sport_basketballl">Basketball</string>
+    <string name="sport_football">Football</string>
+    <string name="sport_soccer">Soccer</string>
+    <string name="sport_baseball">Baseball</string>
+    <string name="lbl_league">League</string>
+    <string name="lbl_captain">Captain</string>
+
+
 </resources>

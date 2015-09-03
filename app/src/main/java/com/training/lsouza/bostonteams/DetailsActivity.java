@@ -1,14 +1,11 @@
 package com.training.lsouza.bostonteams;
 
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class DetailsActivity extends AppCompatActivity {
 
@@ -21,10 +18,15 @@ public class DetailsActivity extends AppCompatActivity {
         ImageView img = (ImageView)findViewById(R.id.imageView_logo);
         TextView txtSport = (TextView)findViewById(R.id.textView_sport);
         TextView txtName = (TextView)findViewById(R.id.textView_name);
+        TextView txtLeague = (TextView)findViewById(R.id.textView_lblLeague);
+        TextView txtCaptain = (TextView)findViewById(R.id.textView_lblCaptain);
 
         img.setImageResource(Util.getLogo(team.teamID));
         txtSport.setText(team.sport);
         txtName.setText(team.name);
+        txtLeague.setText(txtLeague.getText().toString() + ": " + team.league);
+        txtCaptain.setText(txtCaptain.getText().toString() + ": " + team.captain);
+
     }
 
 

@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         mListTeams = new ArrayList<>();
-        mListTeams.add(new Team(Team.CELTICS, "Basketball", "Celtics", "NBA", "Rajon Rondo"));
-        mListTeams.add(new Team(Team.BRUINS, "Hockey", "Bruins", "NHL", "Zdeno Chara"));
-        mListTeams.add(new Team(Team.SOX, "Baseball", "Red Sox", "MLB", "Jason Varitek"));
-        mListTeams.add(new Team(Team.PATS, "Foootball", "NE Patriots", "NFL", "Tom Brady <3"));
-        mListTeams.add(new Team(Team.REV, "Soccer", "NE Revolution", "MLS", "Jose Goncalves"));
+        mListTeams.add(new Team(Team.CELTICS, R.string.sport_basketballl, "Celtics", "NBA", "Rajon Rondo"));
+        mListTeams.add(new Team(Team.BRUINS, R.string.sport_hockey, "Bruins", "NHL", "Zdeno Chara"));
+        mListTeams.add(new Team(Team.SOX, R.string.sport_baseball, "Red Sox", "MLB", "Jason Varitek"));
+        mListTeams.add(new Team(Team.PATS, R.string.sport_football, "NE Patriots", "NFL", "Tom Brady <3"));
+        mListTeams.add(new Team(Team.REV, R.string.sport_soccer, "NE Revolution", "MLS", "Jose Goncalves"));
 
         mListView_teams = (ListView) findViewById(R.id.listView_teams);
 

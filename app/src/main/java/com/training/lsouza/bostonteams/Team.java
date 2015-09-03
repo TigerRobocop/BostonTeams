@@ -14,7 +14,7 @@ public class Team implements Serializable {
     public static final int REV = 4;
 
 
-    public Team(int teamID, String sport, String name, String league, String captain) {
+    public Team(int teamID, int sport, String name, String league, String captain) {
         this.teamID = teamID;
         this.sport = sport;
         this.name = name;
@@ -23,7 +23,7 @@ public class Team implements Serializable {
     }
 
     int teamID;
-    String sport;
+    int sport;
     String name;
     String league;
     String captain;
