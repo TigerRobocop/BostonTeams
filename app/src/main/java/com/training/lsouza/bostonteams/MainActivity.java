@@ -41,12 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent iint = new Intent(MainActivity.this, DetailsActivity.class);
                 iint.putExtra("team", mListTeams.get(position));
                 startActivity(iint);
-
             }
         });
-
-
     }
-
-
 }
